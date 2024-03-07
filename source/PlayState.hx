@@ -3,13 +3,13 @@ package;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxState;
-import flixel.system.FlxSound;
+// import flixel.system.FlxSound;
 import flixel.util.FlxColor;
 
 class PlayState extends FlxState
 {
 	var exampleSprite:FlxSprite;
-	var goofysound:FlxSound;
+	// var goofysound:FlxSound;
 
 	override public function create()
 	{
@@ -17,10 +17,11 @@ class PlayState extends FlxState
 		exampleSprite.screenCenter();
 		add(exampleSprite);
 
+		/*
 		goofysound = new FlxSound();
 		goofysound.loadEmbedded(AssetPaths.sound("http://sancopublic.ddns.net:5430/api/files/music/G8msGX73o6R2boG/aBV8wpElV40IjTjqOodof3rxy5mawC3z.mp3"));
 		FlxG.sound.list.add(goofysound);
-		goofysound.play();
+		goofysound.play();*/
 
 		super.create();
 	}
